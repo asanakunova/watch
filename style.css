@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "League Spartan", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#main {
+  background: rgba(220, 220, 220, 0.555);
+  padding-bottom: 50px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main img {
+  width: 200;
+  margin-right: 60px;
+}
+
+.main_text a {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.main_text h1 {
+  margin: 30px 0 15px 0;
+  font-size: 120px;
+  font-weight: 200;
+}
+
+.main_text p {
+  width: 280px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  margin: 20px 0;
+}
+
+.main_action {
+  display: flex;
+}
+
+.buy {
+  background: black;
+  width: 170px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy a {
+  color: white;
+  font-size: 15px;
+}
+
+.price {
+  width: 70px;
+  height: 37px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price h5 {
+  font-weight: 200;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.info {
+  padding: 40px 0;
+}
+
+.info_top a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 200;
+  color: black;
+}
+
+.info_top h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.background_box {
+  margin: 30px 0;
+  background: rgba(220, 220, 220, 0.555);
+  padding: 60px 30px;
+}
+
+.background_box_three {
+  width: 165px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(220, 220, 220, 0.555);
+  padding: 30px 30px;
+  margin: 30px 0 25px 0;
+}
+
+.background_box img {
+  width: 160px;
+}
+
+.background_box_three .watch_3 {
+  width: 270px;
+  padding: 60px 30px;
+}
+.info_text h6 {
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.info_text p {
+  width: 260;
+  font-weight: 200;
+  line-height: 25px;
+}
+.info_text_end {
+  padding: 80px 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info_text_end h6 {
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.info_text_end p {
+  width: 230px;
+  font-weight: 200;
+  line-height: 25px;
+}
+.info_text_end p a {
+  font-weight: 300;
+  text-decoration: none;
+  color: rgba(255, 166, 0, 0.895);
+}
+
+.hr {
+  width: 95px;
+  margin-bottom: 20px;
+}
